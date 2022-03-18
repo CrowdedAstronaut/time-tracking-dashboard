@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import TimeCard from "./components/TimeCard/TimeCard";
 import UserCard from "./components/UserCard/UserCard";
 
