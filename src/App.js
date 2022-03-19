@@ -1,12 +1,12 @@
 import "./css/App.css";
-import TimeCard from "./components/TimeCard/TimeCard";
+import TimeCards from "./components/TimeCards/TimeCards";
 import UserCard from "./components/UserCard/UserCard";
 
 function App() {
   return (
     <>
       <UserCard />
-      <TimeCard />
+      {/* <TimeCards /> */}
     </>
   );
 }
