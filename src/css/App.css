@@ -129,7 +129,7 @@ h6 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0.5em;
+  /* padding: 0.5em; */
 }
 
 .user-report-container {
@@ -139,7 +139,7 @@ h6 {
 
 .user-report {
   background-color: var(--blue);
-  padding: 1em;
+  padding: 35px 35px 15px 35px;
   border-radius: 1em;
   position: relative;
   z-index: 2;
@@ -147,26 +147,31 @@ h6 {
 }
 .time-option {
   background-color: var(--dark-blue);
-  padding: 1.5em;
-  padding-top: 2.8em;
-  padding-left: 1.7em;
+  padding: 40px 25px 20px;
+  /* padding-top: 2.8em;
+  padding-left: 1.7em; */
   display: flex;
   border-radius: 0 0 1em 1em;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   transform: translateY(-1em);
   z-index: 1;
 }
 
 .user-report img {
-  width: 100px;
-  height: 100px;
+  width: 64px;
+  height: 64px;
   margin-right: 1em;
   border-radius: 100%;
   border: solid white 4px;
 }
 
+.user-report p {
+  text-align: left;
+  padding-top: ;
+}
 .time-option button {
-  margin: 0.5em 0;
+  /* margin: 0.5em 0; */
   background: transparent;
   text-align: left;
   outline: none;
@@ -176,28 +181,17 @@ h6 {
   cursor: pointer;
 }
 
-/* .reports-container{
-  min-width: 900px;
-} */
-
-/* .user-report {
+/* .user-report:hover {
   background-color: var(--light-blue);
-  padding: 1.5em 2em;
-  border-radius: 1em;
-  transform: translateY(-0.8em);
-  transition: 0.3s ease all;
-  cursor: pointer;
 } */
-
-.user-report:hover {
-  background-color: var(--light-blue);
-}
 
 .user-report .title {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
   width: 100;
-  font-size: 1.1em;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 /* .user-report h2 {
@@ -218,3 +212,8 @@ h6 {
   font-size: 3em;
   font-weight: 100;
 } */
+
+.small-text {
+  font-size: 15px;
+  font-weight: 100;
+}

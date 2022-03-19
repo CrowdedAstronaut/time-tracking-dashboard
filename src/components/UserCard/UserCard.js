@@ -1,4 +1,5 @@
 import "../../css/App.css";
+import userimage from "../../assets/images/image-jeremy.png";
 
 export default function UserCard() {
   return (
@@ -6,12 +7,9 @@ export default function UserCard() {
       <div className="user-container">
         <div className="user-report-container">
           <div className="user-report">
-            <img
-              src="../../assets/images/image-jeremy.png"
-              alt=""
-            />
+            <img src={userimage} alt="" />
 
-            <div>
+            <div className="title">
               <p className="small-text text-muted">
                 Report for
               </p>
