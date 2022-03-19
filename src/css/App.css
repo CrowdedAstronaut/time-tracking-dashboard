@@ -100,10 +100,10 @@ h6 {
 
 .background {
   margin: 0 auto;
-  padding-top: 2em;
+  padding-top: 3em;
   background-color: var(--light-red);
   background-image: url("../assets/images/icon-work.svg");
-  background-position: 95% 10%;
+  background-position: 90% 25%;
   background-repeat: no-repeat;
   border-radius: 1em 1em 0em 0em;
 }
@@ -112,7 +112,12 @@ h6 {
   display: flex;
   justify-content: space-between;
   width: 100;
-  font-size: 1.1em;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
 .card-information {
@@ -213,6 +218,12 @@ h6 {
 } */
 .hours {
   text-align: left;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+  letter-spacing: 0px;
 }
 
 .last-time {
