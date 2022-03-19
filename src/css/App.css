@@ -126,28 +126,95 @@ h6 {
 }
 
 .user-container {
-  width: fit-content;
+  width: 100%;
   display: flex;
-  margin: 0 auto;
-  padding-top: 2em;
-  background-color: var(--light-red);
-  background-image: url("../assets/images/icon-work.svg");
-  background-position: 94% -15%;
-  background-repeat: no-repeat;
-  border-radius: 1em;
-  /* padding-bottom: 5em; */
-  /* /* border-radius: 1em; */
-  /* margin-right: 1.5em; */
+  flex-direction: column;
+  padding: 0.5em;
 }
 
-.user-card-information {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-radius: 1em;
-  gap: 1em;
+.user-report-container {
+  /* margin-right: 1.5em; */
   width: 327px;
-  background-color: var(--dark-blue);
-  padding-bottom: 70px;
+}
+
+.user-report {
+  background-color: var(--blue);
+  padding: 1em;
+  border-radius: 1em;
   position: relative;
   z-index: 2;
+  display: flex;
 }
+.time-option {
+  background-color: var(--dark-blue);
+  padding: 1.5em;
+  padding-top: 2.8em;
+  padding-left: 1.7em;
+  display: flex;
+  border-radius: 0 0 1em 1em;
+  flex-direction: column;
+  transform: translateY(-1em);
+  z-index: 1;
+}
+
+.user-report img {
+  width: 100px;
+  height: 100px;
+  margin-right: 1em;
+  border-radius: 100%;
+  border: solid white 4px;
+}
+
+.time-option button {
+  margin: 0.5em 0;
+  background: transparent;
+  text-align: left;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+/* .reports-container{
+  min-width: 900px;
+} */
+
+/* .user-report {
+  background-color: var(--light-blue);
+  padding: 1.5em 2em;
+  border-radius: 1em;
+  transform: translateY(-0.8em);
+  transition: 0.3s ease all;
+  cursor: pointer;
+} */
+
+.user-report:hover {
+  background-color: var(--light-blue);
+}
+
+.user-report .title {
+  display: flex;
+  justify-content: space-between;
+  width: 100;
+  font-size: 1.1em;
+}
+
+/* .user-report h2 {
+  font-weight: 200;
+  font-size: 3em;
+  margin: 0.4em 0;
+} */
+
+.last-time {
+  color: hsl(0, 1%, 72%);
+}
+
+.text-muted {
+  color: hsl(0, 1%, 72%);
+}
+
+/* .big-text {
+  font-size: 3em;
+  font-weight: 100;
+} */

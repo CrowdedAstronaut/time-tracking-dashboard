@@ -4,13 +4,32 @@ export default function UserCard() {
   return (
     <>
       <div className="user-container">
-        <div className="user-card-information">
-          <div className="title">
-            <p>Work</p>
-            <p className="text-muted">···</p>
+        <div className="user-report-container">
+          <div className="user-report">
+            <img
+              src="../../assets/images/image-jeremy.png"
+              alt=""
+            />
+
+            <div>
+              <p className="small-text text-muted">
+                Report for
+              </p>
+              <p className="big-text">Jeremy Robson</p>
+            </div>
           </div>
-          <h2 className="hours">32hrs</h2>
-          <p className="last-time">Last Week - 36hrs</p>
+
+          <div className="time-option">
+            <button id="daily-btn" className="text-muted">
+              Daily
+            </button>
+            <button id="weekly-btn" className="text-muted">
+              Weekly
+            </button>
+            <button id="monthly-btn" className="text-muted">
+              Monthly
+            </button>
+          </div>
         </div>
       </div>
     </>
