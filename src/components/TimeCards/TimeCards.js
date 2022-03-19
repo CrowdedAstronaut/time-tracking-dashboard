@@ -4,11 +4,11 @@ export default function TimeCards() {
   return (
     <div className="timecards">
       <TimeCard className="work" />
-      {/* <TimeCard />
-      <TimeCard />
-      <TimeCard />
-      <TimeCard />
-      <TimeCard /> */}
+      <TimeCard className="play" />
+      <TimeCard className="study" />
+      <TimeCard className="exercise" />
+      <TimeCard className="social" />
+      <TimeCard className="self-care" />
     </div>
   );
 }

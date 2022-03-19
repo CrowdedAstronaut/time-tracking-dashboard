@@ -1,6 +1,6 @@
 export default function TimeCard({ className }) {
   return (
-    <>
+    <div className="container">
       <div className={className}>
         <div className="background"> </div>
         <div className="card-information">
@@ -12,6 +12,6 @@ export default function TimeCard({ className }) {
           <p className="last-time">Last Week - 36hrs</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

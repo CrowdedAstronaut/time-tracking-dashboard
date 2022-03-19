@@ -4,10 +4,10 @@ html,
 body {
   --mobile-max-width: 375px;
   --desktop-max-width: 1440px;
-
+  --work-light-red: hsl(15, 100%, 70%);
   --blue: hsl(246, 80%, 60%);
   --soft-blue: hsl(195, 74%, 62%);
-  --light-red: hsl(15, 100%, 70%);
+  --light-red: hsl(348, 100%, 68%);
   --lime-green: hsl(145, 58%, 55%);
   --violet: hsl(264, 64%, 52%);
   --soft-orange: hsl(43, 84%, 65%);
@@ -98,14 +98,12 @@ h6 {
   isolation: isolate;
 }
 
-.work {
+.container {
   width: 327px;
 }
 .background {
   margin: 0 auto;
   padding-top: 3em;
-  background-color: var(--light-red);
-  background-image: url("../assets/images/icon-work.svg");
   background-position: 93% 42%;
   background-repeat: no-repeat;
   border-radius: 1em 1em 0em 0em;
@@ -256,4 +254,34 @@ h6 {
 
 #monthly-btn {
   margin-left: 30px;
+}
+
+.work .background {
+  background-color: var(--light-red);
+  background-image: url("../assets/images/icon-work.svg");
+}
+
+.play .background {
+  background-color: var(--soft-blue);
+  background-image: url("../assets/images/icon-play.svg");
+}
+
+.study .background {
+  background-color: var(--light-red);
+  background-image: url("../assets/images/icon-study.svg");
+}
+
+.exercise .background {
+  background-color: var(--lime-green);
+  background-image: url("../assets/images/icon-exercise.svg");
+}
+
+.social .background {
+  background-color: var(--violet);
+  background-image: url("../assets/images/icon-social.svg");
+}
+
+.self-care .background {
+  background-color: var(--soft-orange);
+  background-image: url("../assets/images/icon-self-care.svg");
 }
