@@ -98,9 +98,7 @@ h6 {
   isolation: isolate;
 }
 
-.container {
-  width: fit-content;
-  display: flex;
+.background {
   margin: 0 auto;
   padding-top: 2em;
   background-color: var(--light-red);
@@ -108,21 +106,29 @@ h6 {
   background-position: 94% -15%;
   background-repeat: no-repeat;
   border-radius: 1em;
-  /* padding-bottom: 5em; */
-  /* /* border-radius: 1em; */
-  /* margin-right: 1.5em; */
 }
 
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 100;
+  font-size: 1.1em;
+}
+
+.background {
+  background-image: url("../assets/images/icon-work.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: var(--light-red);
+  /* height: 50px; */
+}
 .card-information {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-radius: 1em;
-  gap: 1em;
-  width: 327px;
   background-color: var(--dark-blue);
-  padding-bottom: 70px;
-  position: relative;
-  z-index: 2;
+  padding: 1.5em 2em;
+  border-radius: 1em;
+  transform: translateY(-0.8em);
+  transition: 0.3s ease all;
+  cursor: pointer;
 }
 
 .user-container {
@@ -212,7 +218,13 @@ h6 {
   font-size: 3em;
   font-weight: 100;
 } */
+.hours {
+  text-align: left;
+}
 
+.last-time {
+  text-align: right;
+}
 .small-text {
   font-size: 15px;
   font-weight: 100;
