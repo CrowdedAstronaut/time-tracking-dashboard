@@ -2,6 +2,7 @@ export default function TimeCard() {
   return (
     <>
       <div className="container">
+        <div className="background"> </div>
         <div className="card-information">
           <div className="title">
             <p>Work</p>

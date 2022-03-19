@@ -103,9 +103,9 @@ h6 {
   padding-top: 2em;
   background-color: var(--light-red);
   background-image: url("../assets/images/icon-work.svg");
-  background-position: 94% -15%;
+  background-position: 95% 10%;
   background-repeat: no-repeat;
-  border-radius: 1em;
+  border-radius: 1em 1em 0em 0em;
 }
 
 .title {
@@ -115,13 +115,6 @@ h6 {
   font-size: 1.1em;
 }
 
-.background {
-  background-image: url("../assets/images/icon-work.svg");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-color: var(--light-red);
-  /* height: 50px; */
-}
 .card-information {
   background-color: var(--dark-blue);
   padding: 1.5em 2em;
