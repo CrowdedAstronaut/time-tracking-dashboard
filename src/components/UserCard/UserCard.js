@@ -3,8 +3,8 @@ import "../../css/App.css";
 export default function UserCard() {
   return (
     <>
-      <div className="container">
-        <div className="card-information">
+      <div className="user-container">
+        <div className="user-card-information">
           <div className="title">
             <p>Work</p>
             <p className="text-muted">···</p>

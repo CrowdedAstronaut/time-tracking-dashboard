@@ -20,7 +20,7 @@ body {
   height: 100%;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
-  background-color: var(--dark-blue);
+  background-color: #0e1323;
   color: white;
 }
 
@@ -37,7 +37,7 @@ body {
   */
 * {
   margin: 0;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 /*
     3. Allow percentage-based heights in the application
@@ -105,7 +105,7 @@ h6 {
   padding-top: 2em;
   background-color: var(--light-red);
   background-image: url("../assets/images/icon-work.svg");
-  background-position: top right;
+  background-position: 94% -15%;
   background-repeat: no-repeat;
   border-radius: 1em;
   /* padding-bottom: 5em; */
@@ -116,10 +116,38 @@ h6 {
 .card-information {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-radius: 1em;
   gap: 1em;
   width: 327px;
   background-color: var(--dark-blue);
-  padding-bottom: 5em;
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 2;
+}
+
+.user-container {
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 2em;
+  background-color: var(--light-red);
+  background-image: url("../assets/images/icon-work.svg");
+  background-position: 94% -15%;
+  background-repeat: no-repeat;
+  border-radius: 1em;
+  /* padding-bottom: 5em; */
+  /* /* border-radius: 1em; */
+  /* margin-right: 1.5em; */
+}
+
+.user-card-information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 1em;
+  gap: 1em;
+  width: 327px;
+  background-color: var(--dark-blue);
+  padding-bottom: 70px;
   position: relative;
   z-index: 2;
 }
