@@ -1,7 +1,7 @@
-export default function TimeCard() {
+export default function TimeCard({ className }) {
   return (
     <>
-      <div className="card-container">
+      <div className={className}>
         <div className="background"> </div>
         <div className="card-information">
           <div className="title">

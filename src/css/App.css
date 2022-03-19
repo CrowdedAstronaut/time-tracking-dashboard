@@ -98,6 +98,9 @@ h6 {
   isolation: isolate;
 }
 
+.work {
+  width: 327px;
+}
 .background {
   margin: 0 auto;
   padding-top: 3em;
@@ -223,7 +226,6 @@ h6 {
 } */
 .hours {
   text-align: left;
-
   font-size: 32px;
   font-style: normal;
   font-weight: 300;
