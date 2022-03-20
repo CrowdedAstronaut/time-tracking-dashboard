@@ -1,14 +1,14 @@
 import TimeCard from "../TimeCard/TimeCard";
 
-export default function TimeCards() {
+export default function TimeCards(props) {
   return (
     <div className="timecards">
-      <TimeCard className="work" />
-      <TimeCard className="play" />
+      <TimeCard className={props.title} />
+      {/* <TimeCard className="play" />
       <TimeCard className="study" />
       <TimeCard className="exercise" />
       <TimeCard className="social" />
-      <TimeCard className="self-care" />
+      <TimeCard className="self-care" /> */}
     </div>
   );
 }
