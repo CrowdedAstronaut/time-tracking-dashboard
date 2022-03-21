@@ -18,7 +18,7 @@ export default function TimeCard() {
               </h2>
               <p className="last-time">
                 Last Week -{" "}
-                {card.timeframes.weekly.previous}
+                {card.timeframes.weekly.previous} {"hrs"}
               </p>
             </div>
           </div>

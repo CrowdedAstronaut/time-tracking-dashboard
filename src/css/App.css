@@ -116,11 +116,11 @@ h6 {
 .title {
   display: flex;
   justify-content: space-between;
-  width: 100;
+  width: 100%;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 21px;
+  line-height: 66.36px;
   letter-spacing: 0px;
   text-align: left;
 }
@@ -290,12 +290,23 @@ h6 {
   background-image: url("../assets/images/icon-self-care.svg");
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 900px) {
   .container {
     width: fit-content;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     padding-top: 2em;
+  }
+  .timecards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .last-time {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.78px;
+  }
+  .hours {
+    font-size: 56px;
   }
 }
