@@ -2,7 +2,7 @@ import Data from "../../data.json";
 
 export default function TimeCard() {
   return (
-    <div className="container">
+    <>
       {Data &&
         Data.length > 0 &&
         Data.map((card) => (
@@ -23,6 +23,6 @@ export default function TimeCard() {
             </div>
           </div>
         ))}
-    </div>
+    </>
   );
 }

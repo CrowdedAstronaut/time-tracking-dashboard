@@ -4,6 +4,7 @@ html,
 body {
   --mobile-max-width: 375px;
   --desktop-max-width: 1440px;
+
   --work-light-red: hsl(15, 100%, 70%);
   --blue: hsl(246, 80%, 60%);
   --soft-blue: hsl(195, 74%, 62%);
@@ -99,7 +100,10 @@ h6 {
 }
 
 .container {
-  width: 327px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
 }
 .background {
   margin: 0 auto;
@@ -284,4 +288,14 @@ h6 {
 .Self-Care .background {
   background-color: var(--soft-orange);
   background-image: url("../assets/images/icon-self-care.svg");
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 2em;
+  }
 }
