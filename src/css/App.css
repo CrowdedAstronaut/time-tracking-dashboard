@@ -99,6 +99,11 @@ h6 {
   isolation: isolate;
 }
 
+/* .app-container {
+  display: flex;
+  flex-direction: row;
+} */
+
 .container {
   width: 100%;
   display: flex;
@@ -292,11 +297,11 @@ h6 {
 
 @media only screen and (min-width: 900px) {
   .container {
-    width: fit-content;
+    /* width: fit-content;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    padding-top: 2em;
+    padding-top: 2em; */
   }
   .timecards {
     grid-template-columns: repeat(3, 1fr);

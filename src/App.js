@@ -4,10 +4,10 @@ import UserCard from "./components/UserCard/UserCard";
 
 function App() {
   return (
-    <div className="container">
+    <>
       <UserCard />
       <TimeCards />
-    </div>
+    </>
   );
 }
 
