@@ -13,7 +13,10 @@ export default function UserCard() {
               <p className="small-text text-muted">
                 Report for
               </p>
-              <p className="big-text">Jeremy Robson</p>
+              <p className="big-text">
+                <div className="first-name">Jeremy</div>
+                <div className="last-name">Robson</div>
+              </p>
             </div>
           </div>
 
