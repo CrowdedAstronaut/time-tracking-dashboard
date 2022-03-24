@@ -110,6 +110,7 @@ h6 {
   flex-direction: column;
   padding: 0.5em;
 }
+
 .background {
   margin: 0 auto;
   padding-top: 3em;
@@ -135,9 +136,13 @@ h6 {
   grid-template-columns: repeat(1, 1fr);
   gap: 1em;
 }
+
+.time-container {
+  width: 327px;
+}
 .card-information {
   background-color: var(--dark-blue);
-  padding: 1.5em 2em;
+  /* padding: 1.5em 2em; */
   border-radius: 1em;
   transform: translateY(-0.8em);
   transition: 0.3s ease all;
@@ -297,14 +302,18 @@ h6 {
 
 @media only screen and (min-width: 900px) {
   .container {
-    /* width: fit-content;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    padding-top: 2em; */
+    padding-top: 2em;
   }
   .timecards {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .time-container {
+    width: 255px;
   }
   .last-time {
     font-size: 15px;

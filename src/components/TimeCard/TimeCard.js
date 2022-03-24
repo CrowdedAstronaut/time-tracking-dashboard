@@ -6,7 +6,7 @@ export default function TimeCard() {
       {Data &&
         Data.length > 0 &&
         Data.map((card) => (
-          <div className="container">
+          <div className="time-container">
             <div className={card.title}>
               <div className="background"> </div>
               <div className="card-information">
