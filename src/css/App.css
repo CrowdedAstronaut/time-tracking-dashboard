@@ -126,7 +126,7 @@ h6 {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 66.36px;
+  /* line-height: 66.36px; */
   letter-spacing: 0px;
   text-align: left;
 }
@@ -309,6 +309,9 @@ h6 {
     margin: 0 auto;
     padding-top: 2em;
   }
+  .card-information {
+    padding: 25px;
+  }
 
   .user-report {
     flex-direction: column;
@@ -324,13 +327,43 @@ h6 {
   .user-report-container {
     margin-right: 25px;
   }
+  .user-report img {
+    margin-bottom: 43px;
+  }
+  .title {
+    padding-bottom: 24px;
+  }
+  .hours {
+    padding-bottom: 8px;
+  }
   .big-text {
     flex-direction: column;
+    font-size: 40px;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 47px;
+    letter-spacing: 0px;
+    margin-bottom: 45px;
+  }
+  .small-text {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .first-name {
+    margin-bottom: 10px;
   }
   .last-time {
     font-size: 15px;
     font-weight: 400;
     line-height: 17.78px;
+    text-align: left;
   }
   .hours {
     font-size: 56px;
@@ -340,6 +373,9 @@ h6 {
     align-items: flex-start;
   }
 
+  .time-option button {
+    padding-bottom: 10px;
+  }
   #monthly-btn,
   #weekly-btn {
     margin: 0;
