@@ -131,11 +131,9 @@ h6 {
 }
 
 .timecards {
-  /* display: grid;
-  grid-template-columns: repeat(1, 1fr); */
-  /* justify-items: center; */
-  /* gap: 1em; */
-  /* justify-items: center; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
 }
 
 .time-container {
