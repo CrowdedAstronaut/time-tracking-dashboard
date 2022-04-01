@@ -105,10 +105,9 @@ h6 {
 } */
 
 .container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
 }
 
 .background {
@@ -132,8 +131,8 @@ h6 {
 }
 
 .timecards {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(1, 1fr); */
   /* justify-items: center; */
   /* gap: 1em; */
   /* justify-items: center; */
@@ -141,26 +140,30 @@ h6 {
 
 .time-container {
   width: 327px;
+  background-color: var(--dark-blue);
+  border-radius: 1em;
 }
 .card-information {
-  background-color: var(--dark-blue);
   padding: 28px;
   border-radius: 1em;
+  background-color: var(--dark-blue);
   transform: translateY(-0.8em);
   transition: 0.3s ease all;
   cursor: pointer;
 }
 
 .user-container {
-  width: 100%;
+  /* width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row; */
   /* padding: 0.5em; */
+  /* display: inline-block; */
 }
 
 .user-report-container {
   /* margin-right: 1.5em; */
   width: 327px;
+  background-color: var(--dark-blue);
 }
 
 .user-report {
@@ -172,7 +175,6 @@ h6 {
   display: flex;
 }
 .time-option {
-  background-color: var(--dark-blue);
   padding: 40px 25px 20px;
   /* padding-top: 2.8em;
   padding-left: 1.7em; */
@@ -305,10 +307,11 @@ h6 {
 
 @media only screen and (min-width: 900px) {
   .container {
-    width: fit-content;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+    /* width: fit-content; */
+    display: grid;
+    grid-template-columns: 255px 1fr;
+    border: 1px solid white;
+
     /* padding-top: 2em; */
   }
 
@@ -316,18 +319,18 @@ h6 {
     flex-direction: column;
   }
   .timecards {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr, 200px);
-    /* grid-gap: 30px; */
-    /* justify-items: center; */
+
+    grid-gap: 30px;
   }
   .time-container,
   .user-report-container {
     width: 255px;
   }
-  .user-report-container {
+  /* .user-report-container {
     margin-right: 25px;
-  }
+  } */
   .user-report img {
     margin-bottom: 43px;
   }
